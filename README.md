@@ -12,11 +12,11 @@ First if you are in globant network do the following proxy settings:-
 
 Step 1)Download node.js to your system https://nodejs.org/en/download/ or in case of Eclipse , install Nodeclipse 1.0.2 from Eclipse Marketplace.
 
-Step 2)To get package.json in your project structure use this command is:-npm init
+Step 2)To get package.json file in your project structure use this command is:-npm init
 
-Step 3)To get node-modules in project structure use this command :- npm install.
+Step 3)To get node-modules folder in your project structure use this command :- npm install.
 
-Step 4)Add following dependencies in package.json
+Step 4)Add following dependencies in the package.json
 
 "devDependencies": {
    "protractor": "^5.0.0",
@@ -39,4 +39,4 @@ Step 7) In eclipse terminal navigate to webdriver-manager in node_modules direct
 Subsequently start the webdriver-manager:
 ~/workspace/MyPro/node_modules/protractor/bin$ node
 
-Step 8)To run :- node node_modules\protractor\bin\protractor config.js
+Step 8)To run your script use this command :- node node_modules\protractor\bin\protractor config.js
