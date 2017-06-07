@@ -15,13 +15,15 @@ Install the NVM tool from here
 Click Here :-
 
     NVM install For Windows
-
     NVM install For Ubuntu
 
     To add support for an additional node version type nvm install
     To switch to a different node version type nvm use
     To see what node versions you already have type nvm ls
     That's about it!
+
+
+   
 
     Installing dependencies
 
