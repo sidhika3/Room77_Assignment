@@ -14,8 +14,11 @@ Install the NVM tool from here
 
 Click Here :-
 
+    
     NVM install For Windows
     NVM install For Ubuntu
+    NVM install For Windows
+
 
     To add support for an additional node version type nvm install
     To switch to a different node version type nvm use
