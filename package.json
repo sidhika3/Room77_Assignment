@@ -2,8 +2,9 @@
   "name": "Room77Assignment",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-	  "test": "node node_modules\protractor\bin\protractor config.js"
+   "scripts": {
+	  "update": "node node_modules\\protractor\\node_modules\\webdriver-manager\\bin\\webdriver-manager update",
+	  "test": "node node_modules\\protractor\\bin\\protractor config.js"
   },
   "devDependencies": {
     "chai": "3.5.0",
