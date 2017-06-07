@@ -16,13 +16,10 @@ Click Here :-
 NVM install For Windows
 NVM install For Ubuntu
 
-    To add support for an additional node version type nvm install
-    To switch to a different node version type nvm use
+    To add support for an additional node version type nvm install <version>
+    To switch to a different node version type nvm use <version>
     To see what node versions you already have type nvm ls
-    That's about it!
-
-
-   
+    That’s about it!
 
     Installing dependencies
 
@@ -39,9 +36,9 @@ NVM install For Ubuntu
 For Project Directory Structure follow this:-
 
     Create folder " features " in your project.
-    create file as "test.feature" under folder "features".
-    create folder "stepDefinitions" under "features" folder.
-    create java Script file under folder "stepDefinitions" and named it as stepDefinition.js
+    create file as “test.feature” under folder “features”.
+    create folder “stepDefinitions” under “features” folder.
+    create java Script file under folder “stepDefinitions” and named it as stepDefinition.js
 
     In eclipse terminal navigate to webdriver-manager in node_modules directory & run update command: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager update
 
@@ -52,4 +49,4 @@ To Run Testcase
 use this command :- node node_modules\protractor\bin\protractor config.js or nvm test
 To Skip Testcase
 
-In case some test should not run because of bug or any other reasonable reason tag "@skip" should be added to feature file There should be a link to bug ticket or comment why the test is skipped
+In case some test should not run because of bug or any other reasonable reason tag “@skip” should be added to feature file There should be a link to bug ticket or comment why the test is skipped
