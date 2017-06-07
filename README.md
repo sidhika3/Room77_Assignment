@@ -4,39 +4,51 @@ Cucumber Installation Steps
 
 First if you are in globant network do the following proxy settings:-
 
-    In command prompt :-
+In command prompt :-
 
-1)npm config set proxy http://proxy.corp.globant.com:3128
-2)npm config set https-proxy http://proxy.corp.globant.com:3128
-3)npm config set strict_ssl false
+    npm config set proxy http://proxy.corp.globant.com:3128
+    npm config set https-proxy http://proxy.corp.globant.com:3128
+    npm config set strict_ssl false
 
-Step 1)Download node.js to your system https://nodejs.org/en/download/ or in case of Eclipse , install Nodeclipse 1.0.2 from Eclipse Marketplace.
+Install the NVM tool from here
 
-Step 2)To get package.json file in your project structure use this command is:-npm init
+Click Here :-
 
-Step 3)To get node-modules folder in your project structure use this command :- npm install.
+    NVM install For Windows
 
-Step 4)Add following dependencies in the package.json
+    NVM install For Ubuntu
 
-"devDependencies": {
-   "protractor": "^5.0.0",
-   "cucumber": "~1.2.1",
-   "protractor-cucumber-framework": "^0.6.0"
- }
+    To add support for an additional node version type nvm install
+    To switch to a different node version type nvm use
+    To see what node versions you already have type nvm ls
+    That's about it!
 
-Step 5)Update your package.json file.Right click on package.json ->Run As ->npm install.
+    Installing dependencies
 
-Step 6)
+    nvm use 7.8.0
+    npm install
+    cd node_modules/.bin
+    webdriver-manager update (on Linux/Mac run nvm)
+
+    To get package.json file in your project structure use this command is:-npm init
+    To get node-modules folder in your project structure use this command :-
+    npm install.
+    Update your package.json file.Right click on package.json ->Run As ->npm install.
+
+For Project Directory Structure follow this:-
 
     Create folder " features " in your project.
     create file as "test.feature" under folder "features".
-    then create folder "stepDefinitions" under "features" folder.
-    then create java Script file under folder "stepDefinitions" and named it as stepDefinition.js
+    create folder "stepDefinitions" under "features" folder.
+    create java Script file under folder "stepDefinitions" and named it as stepDefinition.js
 
-Step 7) In eclipse terminal navigate to webdriver-manager in node_modules directory & run update command:
-~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager update
+    In eclipse terminal navigate to webdriver-manager in node_modules directory & run update command: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager update
 
-Subsequently start the webdriver-manager:
-~/workspace/MyPro/node_modules/protractor/bin$ node
+    Subsequently start the webdriver-manager: ~/workspace/MyPro/node_modules/protractor/bin$ node
 
-Step 8)To run your script use this command :- node node_modules\protractor\bin\protractor config.js
+To Run Testcase
+
+use this command :- node node_modules\protractor\bin\protractor config.js or nvm test
+To Skip Testcase
+
+In case some test should not run because of bug or any other reasonable reason tag "@skip" should be added to feature file There should be a link to bug ticket or comment why the test is skipped
