@@ -44,14 +44,9 @@ NVM install For Ubuntu
 
 ### To Run Testcase
 
-    * To Run Testcase use this command :- node node_modules\protractor\bin\protractor config.js or if you have written script like this:-
-    ```
-    "scripts": {
-	 
-	  "test": "node node_modules\\protractor\\bin\\protractor config.js"
-  }
-```
-    then use this command:- nvm test
+    * To Run Testcase use this command :- node node_modules\protractor\bin\protractor config.js 
+    ### or 
+    * nvm test
 
 ### To Skip Testcase
 
