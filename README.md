@@ -19,14 +19,12 @@ NVM install For Ubuntu https://nodesource.com/blog/installing-node-js-tutorial-u
      
 
 
-
-
-     * To add support for an additional node version type nvm install <version>
-    To switch to a different node version type nvm use <version>
+    To add support for an additional node version type nvm install
+    To switch to a different node version type nvm use
     To see what node versions you already have type nvm ls
     That’s about it!
 
-    Installing dependencies
+Installing dependencies
 
     nvm use 7.8.0
     npm install
@@ -34,8 +32,7 @@ NVM install For Ubuntu https://nodesource.com/blog/installing-node-js-tutorial-u
     webdriver-manager update (on Linux/Mac run nvm)
 
     To get package.json file in your project structure use this command is:-npm init
-    To get node-modules folder in your project structure use this command :-
-    npm install.
+    To get node-modules folder in your project structure use this command :- npm install.
     Update your package.json file.Right click on package.json ->Run As ->npm install.
 
 For Project Directory Structure follow this:-
@@ -51,7 +48,8 @@ For Project Directory Structure follow this:-
 
 To Run Testcase
 
-use this command :- node node_modules\protractor\bin\protractor config.js or nvm test
+    use this command :- node node_modules\protractor\bin\protractor config.js or nvm test
+
 To Skip Testcase
 
-In case some test should not run because of bug or any other reasonable reason tag “@skip” should be added to feature file There should be a link to bug ticket or comment why the test is skipped
+    In case some test should not run because of bug or any other reasonable reason tag “@skip” should be added to feature file There should be a link to bug ticket or comment why the test is skipped
