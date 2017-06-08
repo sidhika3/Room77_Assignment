@@ -21,7 +21,7 @@ NVM install For Ubuntu https://nodesource.com/blog/installing-node-js-tutorial-u
 
 
 
-    To add support for an additional node version type nvm install <version>
+     * To add support for an additional node version type nvm install <version>
     To switch to a different node version type nvm use <version>
     To see what node versions you already have type nvm ls
     That’s about it!
