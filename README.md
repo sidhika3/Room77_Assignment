@@ -14,8 +14,8 @@ Install the NVM tool from here
 
 Click Here :- 
 
-NVM install For Windows                    
-NVM install For Ubuntu
+NVM install For Windows https://github.com/coreybutler/nvm-windows/releases                   
+NVM install For Ubuntu https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/
      
 
 
