@@ -4,9 +4,9 @@ First if you are in globant network do the following proxy settings:-
 
 In command prompt :-
 
-npm config set proxy http://proxy.corp.globant.com:3128
-npm config set https-proxy http://proxy.corp.globant.com:3128
-npm config set strict_ssl false
+* npm config set proxy http://proxy.corp.globant.com:3128
+* npm config set https-proxy http://proxy.corp.globant.com:3128
+* npm config set strict_ssl false
 
 ### Install the NVM tool from here
 
@@ -26,24 +26,32 @@ NVM install For Ubuntu
     * cd node_modules/.bin
     * webdriver-manager update (on Linux/Mac run nvm)
 
-    * To get package.json file in your project structure use this command is:- npm init
-    * To get node-modules folder in your project structure use this command :- npm install.
-    * Update your package.json file. Right click on package.json -> Run As -> npm install.
+    
+    * To get dependencies downloaded in your project structure use this command :- npm install.
+   
 
 ### For Project Directory Structure follow this:-
 
     * Create folder " features " in your project.
-    * create file as “test.feature” under folder “features”.
-    * create folder “stepDefinitions” under “features” folder.
-    * create java Script file under folder “stepDefinitions” and name it as stepDefinition.js
+    * Create file as “test.feature” under folder “features”.
+    * Create folder “stepDefinitions” under “features” folder.
+    * Create java Script file under folder “stepDefinitions” and name it as stepDefinition.js
 
-    * In eclipse terminal navigate to webdriver-manager in node_modules directory & run update command: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager update
+    * In terminal navigate to webdriver-manager in node_modules directory & run update command: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager update
 
-    * Subsequently start the webdriver-manager: ~/workspace/MyPro/node_modules/protractor/bin$ node
+    * Subsequently start the webdriver-manager: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager start
+
 
 ### To Run Testcase
 
-    * use this command :- node node_modules\protractor\bin\protractor config.js or nvm test
+    * To Run Testcase use this command :- node node_modules\protractor\bin\protractor config.js or if you have written script like this:-
+    ```
+    "scripts": {
+	 
+	  "test": "node node_modules\\protractor\\bin\\protractor config.js"
+  }
+```
+    then use this command:- nvm test
 
 ### To Skip Testcase
 
