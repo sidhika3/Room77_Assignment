@@ -36,7 +36,7 @@ Click Here :-
 
 * To Run Testcase use this command :- node node_modules\protractor\bin\protractor config.js 
      OR 
-* nvm test
+* npm test
 
 ### To Skip Testcase
 
