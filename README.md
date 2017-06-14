@@ -30,12 +30,7 @@ Click Here :-
 
 ### For Project Directory Structure follow the instruction below this:-
 
-* Create folder " features " in your project.
-* Create file as “test.feature” under folder “features”.
-* Create folder “stepDefinitions” under “features” folder.
-* Create java Script file under folder “stepDefinitions” and name it as stepDefinition.js
-* On terminal navigate to webdriver-manager in node_modules directory & run update command: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager update
-* Subsequently start the webdriver-manager: ~/workspace/MyPro/node_modules/protractor/bin$ node webdriver-manager start
+* Clone the folder in your system
 
 ### To Run Testcase
 
